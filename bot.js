@@ -338,17 +338,17 @@ if(warns[wUser.id].warns == 2){
 
 
 // كود الهلب
-    if(command == prefix + 'help') {
+    if(command == prefix + '+help') {
 		message.channel.send(`
 ◄════════════► [ Flix-Host ] ◄════════════►
 
 :books: **اوامر الهلب**
 
-⫸【1】 ${prefix}help-member 『لرؤية قائمة الهلب للممبر』
+⫸【1】 ${prefix}+help-member 『لرؤية قائمة الهلب للممبر』
 
-⫸【2】 ${prefix}help-staff 『لرؤية قائمة الهلب للستاف』
+⫸【2】 ${prefix}+help-staff 『لرؤية قائمة الهلب للستاف』
 
-⫸【3】 ${prefix}help-admin 『لرؤية قائمة الهلب للادمن』
+⫸【3】 ${prefix}+help-admin 『لرؤية قائمة الهلب للادمن』
 
 ◄════════════► [ Flix-Host ] ◄════════════►
 `);
@@ -359,9 +359,9 @@ if(warns[wUser.id].warns == 2){
 
 :dividers: **الاوامر العامة**
 
-⫸【1】 \`\`${prefix}sug <Your Sug>\`\` 『لارسال اقتراحك الى روم الاقتراحات』
+⫸【1】 \`\`${prefix}+sug <Your Sug>\`\` 『لارسال اقتراحك الى روم الاقتراحات』
 
-⫸【2】 \`\`${prefix}survival\`\` 『لمعرفة شروط السرفايفل وكيفية الدخول』
+⫸【2】 \`\`${prefix}+survival\`\` 『لمعرفة شروط السرفايفل وكيفية الدخول』
 
 ⫸【3】 \`\`${prefix}find <someone>\`\` 『للبحث عن الاعضاء الذين يوجد في اسمائهم الحروف التي كتبتها』
 
